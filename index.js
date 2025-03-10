@@ -9,7 +9,7 @@ app.get('/',(req,res)=>{res.send("welcome")})
 //open the port
 app.listen(8080,()=>{console.log("SERVER CONNECTED")})
 //connect mongodb
-mongoose.connect('mongodb+srv://udaya:udaya@cluster0.ub6jv.mongodb.net/bank').then(()=>{console.log("DB CONNECTED")})
+mongoose.connect('mongodb+srv://karthik:karthik@cluster0.rwdmv.mongodb.net/bank').then(()=>{console.log("DB CONNECTED")})
 
 //schema
 let data=new mongoose.Schema({
@@ -22,9 +22,9 @@ let data=new mongoose.Schema({
 let Data=mongoose.model("test",data)
 
 // let data1= new Data({
-//     name:"Udaya",
-//     email:"udaya@gmail.com",
-//     password:"vazhlkaiye vahlathan",
+//     name:"Karthik",
+//     email:"karthik@gmail.com",
+//     password:"karthik amudhan",
 //     amount:1100
 // })
 // data1.save()
